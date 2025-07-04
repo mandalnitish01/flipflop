@@ -88,7 +88,7 @@
   align-items: center;
   justify-content: center;
   backface-visibility: hidden;
-  background: rgba(10, 10, 10, 0.7);
+  background: rgba(10, 10, 10, 0.9);
   /* border-radius: 10px; */
   /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5),
               inset 0 0 10px rgba(0, 0, 0, 0.5),
