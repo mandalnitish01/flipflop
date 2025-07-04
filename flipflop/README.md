@@ -1,12 +1,48 @@
-# React + Vite
+# Overview
+# A modern, animated flip clock built with React that displays time in either 12-hour or 24-hour format. Features individual digit flipping animations that only trigger when the digit actually changes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Real-time updating: Automatically updates every second
 
-## Expanding the ESLint configuration
+- Targeted animations: Only flips digits that actually change
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design: Works on all screen sizes
+
+- Modern aesthetics: Clean digital look with Orbitron font
+
+# Installation
+## Clone the repository:
+
+### bash
+$ git clone https://github.com/mandalnitish01/flipflop.git
+$ cd react-flip-clock
+
+## Install dependencies:
+
+### bash
+$ npm install
+- Run the development server:
+$ npm run dev
+
+### Dependencies
+#### React
+
+#### React DOM
+
+#### Orbitron font (loaded via Google Fonts)
+
+## Browser Support
+- The flip clock works on all modern browsers including:
+
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+# License
+- MIT License
+
+# Contributing
+- Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
